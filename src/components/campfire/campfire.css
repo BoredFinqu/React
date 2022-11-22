@@ -1,0 +1,43 @@
+.peli2 {
+    display: flex;
+    height: 50vh;
+    background-color: #E6A7A7;
+}
+
+.c-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-right {
+    flex: 1;
+    position: relative;
+}
+
+.c-left-wrapper {
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-name {
+    font-size: 60px;
+    color: #7F5283;
+}
+
+.c-intro {
+    font-size: 30px;
+    font-weight: 300;
+    color: #3D3C42;
+}
+
+.c-img {
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
